@@ -1,0 +1,21 @@
+{
+  "name": "design-system-stylelint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "designlint": "npm run build && stylelint \"**/*.{ts,tsx,css}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "postcss-styled-syntax": "^0.7.1",
+    "stylelint": "^16.26.1",
+    "typescript": "^5.9.3"
+  }
+}
