@@ -1,7 +1,8 @@
 {
   "name": "design-system-stylelint",
   "version": "1.0.0",
-  "description": "",
+  "description": "디자인 시스템 유지를 위한 stylelint입니다.",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@emotion/styled": "^11.14.1",
     "@types/node": "^25.0.3",
     "postcss-styled-syntax": "^0.7.1",
     "stylelint": "^16.26.1",
