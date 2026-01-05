@@ -3,5 +3,6 @@ export default {
   plugins: ["./dist/index.js"],
   rules: {
     "design-system/no-hardcoded-color": true,
+    "design-system/no-hardcoded-font": true,
   },
 };
