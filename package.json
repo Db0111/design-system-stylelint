@@ -5,6 +5,11 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -14,8 +19,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "stylelint": "^16.0.0"
+  },
+  "peerDependenciesMeta": {
+    "postcss-styled-syntax": {
+      "optional": true
+    }
+  },
   "devDependencies": {
-    "@emotion/styled": "^11.14.1",
     "@types/node": "^25.0.3",
     "postcss-styled-syntax": "^0.7.1",
     "stylelint": "^16.26.1",
