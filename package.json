@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "designlint": "npm run build && stylelint \"**/*.{ts,tsx,css}\""
+    "designlint": "npm run build && stylelint \"**/*.{ts,tsx,css}\"",
+    "dev": "tsx src/theme/__test__.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "@types/node": "^25.0.3",
     "postcss-styled-syntax": "^0.7.1",
     "stylelint": "^16.26.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }
