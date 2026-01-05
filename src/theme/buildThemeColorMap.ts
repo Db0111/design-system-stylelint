@@ -1,7 +1,7 @@
-import { readThemeSource } from "./readThemeSource";
-import { extractObjectBlock } from "./extractObjectBlock";
-import { parseColorsHexOnly } from "./parseColorHexCode";
-import { buildColorReverseMap } from "./buildColorReverseMap";
+import { readThemeSource } from "./readThemeSource.js";
+import { extractObjectBlock } from "./extractObjectBlock.js";
+import { parseColorsHexOnly } from "./parseColorHexCode.js";
+import { buildColorReverseMap } from "./buildColorReverseMap.js";
 
 export function buildThemeColorMap(themePath: string) {
   const src = readThemeSource(themePath);

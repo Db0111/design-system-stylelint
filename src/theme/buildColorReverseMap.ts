@@ -1,4 +1,4 @@
-import { normalizeHex } from "./normalizeHex";
+import { normalizeHex } from "./normalizeHex.js";
 
 /**
  * step 4
