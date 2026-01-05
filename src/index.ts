@@ -1,3 +1,4 @@
 import noHardcodedColor from "./rules/no-hardcoded-color.js";
+import noHardcodedFont from "./rules/no-hardcoded-font.js";
 
-export default [noHardcodedColor];
+export default [noHardcodedColor, noHardcodedFont];
